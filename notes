@@ -1,0 +1,22 @@
+Assuming that master is always up-to-date or behind(not ahead!)
+
+
+if origin/master ahead of master:
+# to reset local master to origin/master and throws away any local unstaged files
+git reset --hard origin/master
+
+
+if temp branch:
+master is ahead of dev   - rebase
+master is untouched  -  ff merge
+
+
+if well-know branch:
+
+
+
+
+
+must not unclude feature branches into histoly log
+
+git fetch --all
