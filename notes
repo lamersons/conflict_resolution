@@ -1,0 +1,26 @@
+1. Assuming that master is always up-to-date or behind other branches
+2. People should strongly avoid working and committing the same file as it creates extreme conflict cases.
+In case of such a conflict the resolution will keep the origin/branch files and DELETE local, be sure to stash.
+
+
+
+
+if origin/master ahead of master:
+# to reset local master to origin/master and throws away any local unstaged files
+git reset --hard origin/master
+
+
+if temp branch:
+master is ahead of dev   - rebase
+master is untouched  -  ff merge
+
+
+if well-know branch:
+
+
+
+
+
+must not unclude feature branches into histoly log
+
+git fetch --all
